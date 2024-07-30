@@ -123,10 +123,148 @@
                 </ul>
             </aside>             
             <main id="contents">
-                <section id="main" class="section">
-                    <div class="" style="margin: 0 0 10% 0;">
-                        <img src="img/main_img.png" alt="">
+                <section id="main_visual" class="section">  
+                    <h2 class="hidden">메인 비주얼</h2>
+                    <div id="custom-controls">
+                        <button id="playPauseBtn">Play</button>
+                        <div id="progressControl">
+                            <input type="range" min="0" max="100" step="0.1" value="0">
+                            <span id="currentTime">0:00</span><span id="tol">/</span><span id="duration">0:30</span>
+                        </div>
                     </div>
+                    <video id="video"  preload="auto" playsinline="">
+                        <source src="image/main_video.mp4" type="video/mp4">              
+                    </video>                    
+                    <article class="inner">
+                        <div class="t_box">
+                        </div>
+                    </article>
+                    <div class="play">
+                        <a href="#!" id="movie-btn">
+                            <img src="/img/video_play.png" alt="" id="play">
+                            <span id="play_txt">00:30</span>
+                             <img src="/img/paused.png" alt="" id="paused"> 
+                        </a>
+                    </div>                   
+                </section>
+                <section id="section02">
+                    <h2 class="hidden">장례식장 소개</h2>
+                    <article class="inner">
+                        <div class="con_area">
+                            <ul> 
+                                <li data-aos="fade-up"  data-aos-duration="1000">
+                                    <a href="sub/about.html">
+                                        <i><img src="image/main_icon02.png" alt="빈소안내"></i>
+                                        <span class="f_lom">식장소개</span>
+                                    </a>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="200">
+                                    <a href="sub/process01.html">
+                                        <i><img src="image/main_icon03.png" alt="장례절차"></i>
+                                        <span class="f_lom">장례절차</span>
+                                    </a>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="500">
+                                    <a href="sub/location.html">
+                                        <i><img src="image/main_icon04.png" alt="오시는길"></i>
+                                        <span class="f_lom">오시는길</span>
+                                    </a>
+                                </li>
+                                <li  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                                    <a href="sub/status.html">
+                                        <i><img src="image/main_icon01.png" alt="빈소현황"></i>
+                                        <span class="f_lom">빈소현황</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-container">
+                            <div class="tab_area">
+                                <div class="tab-button active tab01" onclick="openTab('tab1')">
+                                    <b class="f_lom">부대시설</b>
+                                    <i></i>
+                                </div>
+                                <div class="tab-button tab02" onclick="openTab('tab2')">
+                                    <b class="f_lom">조문실</b>
+                                    <i></i>
+                                </div>
+                                <div class="tab-button tab03" onclick="openTab('tab3')">
+                                    <b class="f_lom">주차공간</b>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div id="tab1" class="tab-content active">
+                                <div class="cont_in">
+                                    <figure>
+                                        <img src="image/budae01.jpg" alt="부대시설 대표이미지">
+                                        <p class="f_lom">보정장례식장은 향상된 서비스로<br> 유족을 내 가족처럼 생각하고 최선을 다하겠습니다.</p>
+                                    </figure>
+                                    <ul>
+                                        <li><img src="image/budae04.jpg" alt="부대시설04"></li>
+                                        <li><img src="image/budae05.jpg" alt="부대시설05"></li>
+                                        <li><img src="image/budae06.jpg" alt="부대시설06"></li>
+                                        <li><img src="image/budae07.jpg" alt="부대시설07"></li>
+                                        <li><img src="image/budae02.jpg" alt="부대시설02"></li>
+                                        <li><img src="image/budae03.jpg" alt="부대시설03"></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div id="tab2" class="tab-content">
+                                <div class="cont_in">
+                                    <figure>
+                                        <img src="image/condolences01.jpg" alt="조문실 대표이미지">
+                                        <p class="f_lom">보정장례식장은 향상된 서비스로<br> 유족을 내 가족처럼 생각하고 최선을 다하겠습니다.</p>
+                                    </figure>
+                                    <ul>
+                                        <li><img src="image/condolences02.jpg" alt="조문실02"></li>
+                                        <li><img src="image/condolences03.jpg" alt="조문실03"></li>
+                                        <li><img src="image/condolences04.jpg" alt="조문실04"></li>
+                                        <li><img src="image/condolences05.jpg" alt="조문실05"></li>
+                                        <li><img src="image/condolences06.jpg" alt="조문실06"></li>
+                                        <li><img src="image/condolences07.jpg" alt="조문실07"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="m_cont_in">
+                                <h4>VIP실</h4>
+                                <ul>
+                                <li><img src="image/facility01.jpg" alt="빈소안내01"></li>
+                                <li><img src="image/facility02.jpg" alt="빈소안내02"></li>
+                                </ul>
+                                  <h4>특실</h4>  
+                                    <ul>
+                                    <li><img src="/img/facility03.jpg" alt="빈소안내03"></li>
+                                    <li><img src="/img/facility06.png" alt="빈소안내06"></li>
+                
+                                </ul>
+                                <h4>일반실</h4>  
+                                    <ul>
+                                    <li><img src="/img/facility04.jpg" alt="빈소안내04"></li>
+                                     <li><img src="/img/facility05.jpg" alt="빈소안내05"></li>
+                
+                                </ul>
+                                </div>
+                            </div>
+                            <div id="tab3" class="tab-content">
+                                <div class="cont_in">
+                                    <figure>
+                                        <img src="image/lo01.jpg" alt="주차공간 대표이미지">
+                                        <p class="f_lom">보정장례식장은 향상된 서비스로<br> 유족을 내 가족처럼 생각하고 최선을 다하겠습니다.</p>
+                                    </figure>
+                                    <ul>
+                                        <li><img src="image/lo02.jpg" alt="주차공간02"></li>
+                                        <li><img src="image/lo03.jpg" alt="주차공간03"></li>
+                                        <li><img src="image/lo04.jpg" alt="주차공간04"></li>
+                                        <li><img src="image/lo05.jpg" alt="주차공간05"></li>
+                                        <li><img src="image/lo06.jpg" alt="주차공간06"></li>
+                                        <li><img src="image/lo07.jpg" alt="주차공간07"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          
+                        </div>         
+                    </article>
                 </section>
             </main>
             <footer id="footer">

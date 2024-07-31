@@ -17,6 +17,15 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script> 
     <script src="js/nav.js"></script> 
+    <style>
+    /* index에서만 */
+    #header .navbar .container .logo{
+        opacity: 0;
+    }
+    #header.on .navbar .container .logo{
+        opacity: 1;
+    }
+</style>
 </head>
 <body>
     <div id="bojung_wrap">
@@ -82,8 +91,7 @@
                             </div>                        
                         </div>
                     </nav>  
-                </div>
- 
+                </div> 
             </header>   
             <aside id="aside">
                 <ul class="navbar-nav_m">

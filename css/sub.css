@@ -27,7 +27,7 @@
 }
 
 .s_visual01 {
-  background: url("/img/sub_visual.jpg") no-repeat center/cover;
+  background: url("../image/sub_visual.jpg") no-repeat center/cover;
   width: 100%;
   height: 500px;
 }
@@ -219,7 +219,7 @@
 }
 
 .about_01 .t_box {
-  background: url("/img/about_txt.jpg") no-repeat center/cover;
+  background: url("../image/about_txt.jpg") no-repeat center/cover;
   width: 100%;
   height: 118px;
   padding: 10px;
@@ -447,13 +447,13 @@
   background: #188185;
 }
 .process_03 .tab01.active i {
-  background: url("/img/budae_icon01_on.png") no-repeat center/45px 40px;
+  background: url("../image/budae_icon01_on.png") no-repeat center/45px 40px;
 }
 .process_03 .tab01.active b {
   color: #fff;
 }
 .process_03 .tab01 i {
-  background: url("/img/budae_icon01.png") no-repeat center/45px 40px;
+  background: url("../image/budae_icon01.png") no-repeat center/45px 40px;
   display: block;
   width: 45px;
   height: 40px;
@@ -469,13 +469,13 @@
   background: #188185;
 }
 .process_03 .tab02.active i {
-  background: url("/img/budae_icon02_on.png") no-repeat center/43px 46px;
+  background: url("../image/budae_icon02_on.png") no-repeat center/43px 46px;
 }
 .process_03 .tab02.active b {
   color: #fff;
 }
 .process_03 .tab02 i {
-  background: url("/img/budae_icon02.png") no-repeat center/43px 46px;
+  background: url("../image/budae_icon02.png") no-repeat center/43px 46px;
   display: block;
   width: 43px;
   height: 46px;
@@ -491,13 +491,13 @@
   background: #188185;
 }
 .process_03 .tab03.active i {
-  background: url("/img/budae_icon03_on.png") no-repeat center/46px 42px;
+  background: url("../image/budae_icon03_on.png") no-repeat center/46px 42px;
 }
 .process_03 .tab03.active b {
   color: #fff;
 }
 .process_03 .tab03 i {
-  background: url("/img/budae_icon03.png") no-repeat center/46px 42px;
+  background: url("../image/budae_icon03.png") no-repeat center/46px 42px;
   display: block;
   width: 46px;
   height: 42px;
@@ -513,13 +513,13 @@
   background: #188185;
 }
 .process_03 .tab04.active i {
-  background: url("/img/budae_icon04_on.png") no-repeat center/44px 31px;
+  background: url("../image/budae_icon04_on.png") no-repeat center/44px 31px;
 }
 .process_03 .tab04.active b {
   color: #fff;
 }
 .process_03 .tab04 i {
-  background: url("/img/budae_icon04.png") no-repeat center/44px 31px;
+  background: url("../image/budae_icon04.png") no-repeat center/44px 31px;
   display: block;
   width: 43px;
   height: 31px;

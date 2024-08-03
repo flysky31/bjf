@@ -247,9 +247,6 @@
   font-size: 11px;
   background-color: #fff;
   z-index: 99;
-  -webkit-transition: right 300ms ease-in-out;
-  -moz-transition: right 300ms ease-in-out;
-  -o-transition: right 300ms ease-in-out;
   transition: right 300ms ease-in-out;
   overflow-y: scroll;
 }
